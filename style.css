@@ -36,3 +36,28 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
 }
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #6A6767;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*Navigation Bar*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.91);
+}
+
+.links {
+    display: flex;
+    gap: 1.5rem;
+}
+
