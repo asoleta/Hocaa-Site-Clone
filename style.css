@@ -10,3 +10,29 @@ font-family: 'Montserrat', sans-serif;*/
 html {
     font-size: 62.5%;
 }
+
+/*Universal Styling*/
+h1 {
+    font-family: 'DM Serif Text', serif;
+    font-size: 10rem;
+}
+
+h2 {
+    font-family: 'DM Serif Text', serif;
+    font-size: 5rem;
+}
+
+h3 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 3rem;
+}
+
+h4 {
+    font-family: 'DM Serif Text', serif;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+}
