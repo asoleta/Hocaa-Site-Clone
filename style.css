@@ -139,8 +139,9 @@ nav {
 }
 
 .iconCircle:hover {
-    animation: iconCircle 2s;
+    animation: iconCircle .5s;
     transition-timing-function: ease-out;
+    animation-fill-mode: forwards;
 }
 
 .fa-solid {
