@@ -107,6 +107,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.91);
+    position:fixed;
+    width:100%;
 }
 
 .links {
@@ -123,8 +125,9 @@ nav {
     gap: 3rem;
     background: url(images/heroBG.jpg) no-repeat;
     background-size:cover;
-    height: 50rem;
+    height: 70rem;
     background-attachment: fixed;
+    padding: 7rem;
 }
 
 #heroBanner h3,
