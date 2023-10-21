@@ -164,7 +164,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 3rem;
-    padding: 5rem 40rem;
+    padding: 2rem 40rem;
 }
 
 #infoBlock1 .left {
@@ -221,4 +221,36 @@ nav {
     to {
         margin-bottom: 30rem;
     }
+}
+
+/*Info Block 2*/
+#infoBlock2 {
+    padding: 4rem;
+    background-color: #FFC329;
+    margin: 0rem 35rem 10rem 35rem;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.icon img {
+    width: 10rem;
+}
+
+/*Testimonials*/
+
+/*News Article*/
+#newsArticle img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
