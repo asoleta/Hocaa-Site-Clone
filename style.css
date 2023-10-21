@@ -158,3 +158,22 @@ nav {
         padding: 2rem;
     }
 }
+
+/*Info Block 1*/
+#infoBlock1 {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+#infoBlock1 .left {
+    padding: 20rem 0 10rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#infoBlock1 h3 {
+    font-size: 2rem;
+    color: #FFC329;
+}
