@@ -192,9 +192,33 @@ nav {
 .matcha {
     grid-column: 1/3;
     margin-bottom: 30rem;
+    animation: floatUp 4s infinite;
+    animation-timing-function: linear;
 }
 
 .lychee {
     grid-column: 2/5;
     margin-bottom: 50rem;
+    animation: floatDown 4s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes floatDown {
+    
+    50% {
+        margin-bottom: 45rem;
+    }
+
+    to {
+        margin-bottom: 50rem;
+    }
+}
+
+@keyframes floatUp {
+    50% {
+        margin-bottom: 33rem;
+    }
+    to {
+        margin-bottom: 30rem;
+    }
 }
