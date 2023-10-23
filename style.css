@@ -102,6 +102,12 @@ button {
     font-family: 'DM Serif Text', serif;
 }
 
+iframe {
+    width: 40rem;
+    height: 30rem;
+    margin-left:2rem;
+}
+
 /*Navigation Bar*/
 nav {
     display: flex;
@@ -346,4 +352,53 @@ nav {
 
 #gallery .drinks img {
     padding: .5rem;
+}
+
+/*Contact Us*/
+#contact {
+    background: url("images/contactImg.jpg") no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0rem 10rem;
+}
+
+.contactHeader {
+    padding: 10rem 0rem;
+}
+
+#contact h1 {
+    text-align: center;
+    color:white;
+    font-family: 'Koulen', sans-serif;
+    background-color: rgba(152, 152, 152, 0.58);
+    margin: 0rem 30rem;
+    padding: 2rem;
+}
+
+.contactInfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.contactInfo .bethlehem,
+.contactInfo .palmer,
+.contactInfo .berkshire {
+    background-color: black;
+    padding: 8rem;
+    margin: 3rem;
+}
+
+.contactInfo h2,
+.contactInfo h4,
+.contactInfo p {
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.contactInfo h2 {
+    font-size: 3rem;
 }
