@@ -254,23 +254,25 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 3rem 0rem;
 }
 
 /*Business Hours*/
 #hours {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
     background-color: #28190E;
     width: 100%;
-    gap: 50rem;
-    padding: 4rem;
+    padding: 10rem 4rem;
 }
 
 #hours .left {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    padding-left: 10rem;
+    margin-bottom: 50rem;
 }
 
 #hours .left h3 {
@@ -291,3 +293,32 @@ nav {
     padding: 1rem;
     margin: 2rem 0;
 }
+
+#hours .right {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#hours .right h3,
+#hours .right p {
+    color:white;
+}
+
+#bethlehem, 
+#palmer,
+#berkshire {
+    display: flex;
+    flex-direction: column;
+}
+
+#hours .right .times {
+    display: flex;
+    gap: 5rem;
+    padding: 5rem 3rem;
+    background-color: #0E0600;
+    margin: 1rem;
+    border-radius: 3rem;
+}
+
+/*Gallery*/
