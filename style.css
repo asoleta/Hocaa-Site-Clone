@@ -322,3 +322,28 @@ nav {
 }
 
 /*Gallery*/
+#gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 10rem;
+    gap: 5rem;
+}
+
+#gallery h3 {
+    color:#FFC329;
+}
+
+#gallery .top10 img{
+    padding: 0rem 5rem;
+}
+
+#gallery .drinks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#gallery .drinks img {
+    padding: .5rem;
+}
