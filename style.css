@@ -50,6 +50,7 @@ table {
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 /*Universal Styling*/
@@ -262,4 +263,31 @@ nav {
     align-items: center;
     background-color: #28190E;
     width: 100%;
+    gap: 50rem;
+    padding: 4rem;
+}
+
+#hours .left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#hours .left h3 {
+    color:#FFC329;
+    font-size: 2rem;
+}
+
+#hours .left h2 {
+    color:white;
+}
+
+#hours .left p {
+    color:white;
+}
+
+#hours .left button {
+    background-color: #FFC329;
+    padding: 1rem;
+    margin: 2rem 0;
 }
